@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, requests
+from flask import Flask, jsonify
 
 app = Flask(__name__)
 
@@ -11,4 +11,4 @@ def bye():
     return jsonify({"bye" : "Bye Aniket"})
 
 if __name__ == '__main__':
-    app.run(debug=true)
+    app.run(debug=false)
